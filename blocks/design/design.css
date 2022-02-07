@@ -1,0 +1,23 @@
+.design {
+    min-width: 290px;
+}
+
+@media (min-width: 720px) {
+    .design {
+        display: grid;
+        grid-template-areas:
+            "title title"
+            "sreen corpus"
+            "cards cards";
+        /* column-gap: 20px; */
+    }
+}
+
+@media (min-width: 1000px) {
+    .design {
+        display: grid;
+        grid-template-areas:
+            "title title title title"
+            "sreen corpus cards cards";
+    }
+}
