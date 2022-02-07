@@ -1,5 +1,6 @@
 .services__container {
     display: flex;
+    align-items: center;
     padding-bottom: 30px;
     border-bottom: 1px rgba(0, 0, 0, .1) solid;
     margin-bottom: 30px;

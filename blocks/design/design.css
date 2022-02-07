@@ -4,7 +4,12 @@
 
 @media (min-width: 720px) {
     .design {
+        -ms-display: grid;
         display: grid;
+        -ms-grid-template-areas:
+            "title title"
+            "sreen corpus"
+            "cards cards";
         grid-template-areas:
             "title title"
             "sreen corpus"
@@ -15,7 +20,9 @@
 
 @media (min-width: 1000px) {
     .design {
-        display: grid;
+        -ms-grid-template-areas:
+            "title title title title"
+            "sreen corpus cards cards";
         grid-template-areas:
             "title title title title"
             "sreen corpus cards cards";

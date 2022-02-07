@@ -6,6 +6,7 @@
 
 @media (min-width: 720px) {
     .design__cards {
+        -ms-grid-area: cards;
         grid-area: cards;
         margin: 50px 25px 60px;
     }

@@ -7,6 +7,7 @@
 
 @media (min-width: 720px) {
     .design__title {
+        -ms-grid-area: title;
         grid-area: title;
         font-size: 30px;
         line-height: 40px;

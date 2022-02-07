@@ -15,3 +15,9 @@
         margin: 60px 25px 50px;
     }
 }
+
+@media (min-width: 1000px) {
+    .services__title {
+        margin-top: 37px;
+    }
+}
